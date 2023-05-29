@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="UI\HUD.h" />
+    <ClInclude Include="Test\Test.h" />
+    <ClInclude Include="State\StateComponent.h" />
+    <ClInclude Include="Map\TestMap.h" />
+    <ClInclude Include="Character\LInk.h" />
+    <ClInclude Include="Character\TestEnemy.h" />
+    <ClInclude Include="Character\Npc.h" />
+    <ClInclude Include="Animation\LinkAnimation.h" />
+    <ClInclude Include="Animation\EnemyAnimation.h" />
+    <ClInclude Include="Animation\NpcAnimation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="UI\HUD.cpp" />
+    <ClCompile Include="Test\Test.cpp" />
+    <ClCompile Include="State\StateComponent.cpp" />
+    <ClCompile Include="Map\TestMap.cpp" />
+    <ClCompile Include="Character\LInk.cpp" />
+    <ClCompile Include="Character\TestEnemy.cpp" />
+    <ClCompile Include="Character\Npc.cpp" />
+    <ClCompile Include="Animation\LinkAnimation.cpp" />
+    <ClCompile Include="Animation\EnemyAnimation.cpp" />
+    <ClCompile Include="Animation\NpcAnimation.cpp" />
+  </ItemGroup>
+</Project>
